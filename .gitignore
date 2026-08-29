@@ -1,0 +1,35 @@
+# Python bytecode / caches
+__pycache__/
+*.py[cod]
+*.pyd
+.pytest_cache/
+.mypy_cache/
+.ruff_cache/
+.coverage
+coverage.xml
+
+# Virtual environments
+.venv/
+venv/
+env/
+.env
+
+# Jupyter / IPython
+.ipynb_checkpoints/
+
+# OS / editor noise
+.DS_Store
+Thumbs.db
+.vscode/
+.idea/
+
+# Project artifacts (do not commit)
+data/
+checkpoints/
+outputs/
+# Reproducibility: allow one JSON snapshot in results/ to be versioned
+!outputs/
+outputs/*
+!outputs/results/
+outputs/results/*
+!outputs/results/run_config.json
