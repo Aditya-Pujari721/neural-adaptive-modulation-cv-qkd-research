@@ -9,7 +9,7 @@ This repository contains a simulation-only pipeline for **Gaussian-modulated coh
 - neural modulation predictor training/evaluation (`cv_qkd_project/model/`)
 - experiments + robustness studies (`cv_qkd_project/experiments/`)
 
-*Collaboration with [@rishipathuri](https://github.com/rishipathuri)
+*Collaboration with [@rishipathuri](https://github.com/rishipathuri)*
 
 ## Setup
 
