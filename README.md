@@ -1,12 +1,12 @@
-# CV-QKD Research Project (Simulation)
+# Neural-Adaptive CV-QKD Research Project (Simulation)
 
 This repository contains a simulation-only pipeline for **Gaussian-modulated coherent-state CV‑QKD**, including:
 
+- neural modulation predictor training/evaluation (`cv_qkd_project/model/`)
 - physics models (`cv_qkd_project/physics/`)
 - detector-efficiency mismatch side-channel modeling (`cv_qkd_project/side_channel/`)
 - brute-force modulation optimization (`cv_qkd_project/optimization/`)
 - dataset generation + preprocessing (`cv_qkd_project/dataset/`)
-- neural modulation predictor training/evaluation (`cv_qkd_project/model/`)
 - experiments + robustness studies (`cv_qkd_project/experiments/`)
 
 *Collaboration with [@rishipathuri](https://github.com/rishipathuri)*
